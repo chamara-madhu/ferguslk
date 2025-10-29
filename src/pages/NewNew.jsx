@@ -73,7 +73,7 @@ const DestinationCard = ({ destination }) => {
               <span className="w-1.5 h-8 bg-teal-500 rounded-full"></span>
               Places
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {destination.photos.map((photo, idx) => (
                 <div
                   key={idx}
