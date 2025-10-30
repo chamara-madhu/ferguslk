@@ -1,5 +1,6 @@
 import { MapPin } from "lucide-react";
 import { Calendar, Compass } from "feather-icons-react";
+import Map from "../assets/images/map.jpg"
 
 const DestinationCard = ({ destination }) => {
 
@@ -1200,8 +1201,37 @@ export default function NewNew() {
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            My Plan
+            My Planed Places
           </h2>
+        </div>
+
+        <div className="flex gap-5 mb-8 bg-slate-800/50 rounded-3xl p-8 backdrop-blur-sm border border-slate-700/50">
+          <div className="relative">
+            <img 
+              src={Map} 
+              alt="Sri Lanka Map with Destinations"
+              className="h-auto rounded-xl shadow-2xl"
+            />
+          </div>
+
+          {/* Destination List */}
+          <div className="grid grid-cols-1 gap-4">
+            {[
+              "Negombo", "Kalpitiya", "Anuradhapura", "Polonnaruwa", 
+              "Jaffna", "Trincomalee", "Sigiriya", "Kandy", 
+              "Ella", "Sri Pada", "Nuwara Eliya", "Haputale",
+              "Arugam Bay", "Yala National Park", "Mirissa", 
+              "Hikkaduwa", "Galle", "Colombo"
+            ].map((destination, index) => (
+              <div 
+                key={index}
+                className="flex items-center gap-3 px-4"
+              >
+                <MapPin className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                <span className="text-gray-300">{destination}</span>
+              </div>
+            ))}
+          </div>
         </div>
 
         <div className="space-y-12">
