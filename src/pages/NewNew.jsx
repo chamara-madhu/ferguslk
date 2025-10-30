@@ -395,7 +395,7 @@ export default function NewNew() {
         {
           url: "https://c8.alamy.com/comp/DP2KAT/asia-sri-lanka-polonnaruwa-the-ruins-of-the-medieval-capital-city-DP2KAT.jpg",
           caption: "Ruins of Polonnaruwa City",
-        }
+        },
       ],
     },
     {
@@ -709,6 +709,143 @@ export default function NewNew() {
       ],
     },
     {
+      id: 4,
+      name: "Nuwara Eliya",
+      location: "Central Province, Sri Lanka",
+      mainImage:
+        "https://lakpura.com/cdn/shop/files/LK951R0000-10-E_4fb5ce5e-c060-481b-9ee3-429c7a3a7b72.jpg?v=1689939550&width=3840",
+      description:
+        "Often called ‘Little England’, Nuwara Eliya is a charming hill station nestled in Sri Lanka’s Central Highlands. Surrounded by lush tea plantations, misty mountains, and colonial-era architecture, it offers a cool climate and serene atmosphere. Visitors can enjoy scenic train rides, boating on Gregory Lake, and exploring picturesque waterfalls.",
+      tags: [
+        "Hill Station",
+        "Tea",
+        "Nature",
+        "Adventure",
+        "Waterfalls",
+        "Colonial Heritage",
+      ],
+      videoUrl: "https://youtube.com/embed/ItYzgemXAXI",
+      highlights: [
+        "Gregory Lake – Boating, picnics, and horse rides in the heart of the town",
+        "Horton Plains National Park – Home to World’s End and Baker’s Falls",
+        "Pedro Tea Estate – Experience authentic Ceylon tea making",
+        "Victoria Park – Beautifully landscaped gardens with rare flowers",
+        "Seetha Amman Temple – Mythologically linked to the Ramayana",
+        "Nuwara Eliya Golf Club – One of Asia’s oldest golf courses",
+      ],
+      photos: [
+        {
+          url: "https://www.honeymoonguidesrilanka.com/wp-content/uploads/2024/08/Lake-Gregory-Park-1200x630-1.jpg",
+          caption: "Gregory Lake",
+        },
+        {
+          url: "https://overatours.com/wp-content/uploads/2019/05/116-1024x683.jpg",
+          caption: "Horton Plains National Park",
+        },
+        {
+          url: "https://www.honeymoonguidesrilanka.com/wp-content/uploads/2024/08/Pedro-Tea-Estate-1920x600-1.jpg",
+          caption: "Pedro Tea Estate",
+        },
+        {
+          url: "https://tourmylanka.com/wp-content/uploads/2025/04/Victoria-Park-Nuwara-Eliya5.jpg",
+          caption: "Victoria Park",
+        },
+        {
+          url: "https://hummingbirdholiday.com/wp-content/uploads/2025/03/Seetha-Amman-Kovil-sri-lanka-1024x576.png",
+          caption: "Seetha Amman Temple",
+        },
+        {
+          url: "https://www.nuwaraeliyahotels.net/data/Pics/OriginalPhoto/12660/1266000/1266000802/nuwara-eliya-golf-club-nuwara-eliya-pic-2.JPEG",
+          caption: "Nuwara Eliya Golf Club",
+        },
+        {
+          url: "https://www.attractionsinsrilanka.com/wp-content/uploads/2019/07/Loversleap.jpg",
+          caption: "Lover’s Leap Waterfall",
+        },
+        {
+          url: "https://www.greatgardensoftheworld.com/wp-content/uploads/2020/02/greatgardens-hakgala-botanic-garden-02.jpg",
+          caption: "Hakgala Botanical Garden",
+        },
+        {
+          url: "https://www.beyondescapes.com/uploads/excursions/TTblnvsC4Zvd.jpg",
+          caption: "Ambewela Farm",
+        },
+        {
+          url: "https://fernandotravels.com.au/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnuwaraeliya.fcb22546.jpg&w=3840&q=75",
+          caption: "Town View of Nuwara Eliya",
+        },
+        {
+          url: "https://duqjpivknq39s.cloudfront.net/2018/12/800x750-post-office.jpg",
+          caption: "The Post Office and other Colonial Buildings",
+        },
+      ],
+    },
+    {
+      id: 5,
+      name: "Haputale",
+      location: "Uva Province, Sri Lanka",
+      mainImage:
+        "https://content.r9cdn.net/rimg/dimg/98/cd/1953cc01-city-304530-174bac037cf.jpg?width=1366&height=768&xhint=1631&yhint=785&crop=true",
+      description:
+        "Haputale is a serene mountain town perched on the southern edge of Sri Lanka’s hill country. With breathtaking views of valleys, tea estates, and misty hills, it’s a haven for nature lovers and photographers. The town is famous for Lipton’s Seat, Diyaluma Falls, and its cool, tranquil atmosphere.",
+      tags: [
+        "Nature",
+        "Tea",
+        "Mountains",
+        "Hiking",
+        "Waterfalls",
+        "Viewpoints",
+      ],
+      videoUrl: "https://youtube.com/embed/NkkkjwqwD-k",
+      highlights: [
+        "Lipton’s Seat – Iconic viewpoint overlooking endless tea fields",
+        "Dambatenne Tea Factory – Historic tea factory founded by Sir Thomas Lipton",
+        "Diyaluma Falls – Sri Lanka’s second-highest waterfall",
+        "Adisham Bungalow – A Benedictine monastery with English architecture",
+        "Haputale Viewpoint – Panoramic view of the southern plains",
+        "Idalgashinna Railway Station – One of the most scenic train stops in the world",
+      ],
+      photos: [
+        {
+          url: "https://www.lovesrilanka.org/wp-content/uploads/2020/06/LSL_B2_Dambatenne-Tea-Factory_1920x700.jpg",
+          caption: "Dambatenne Tea Factory",
+        },
+        {
+          url: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/6e/f0/29.jpg",
+          caption: "Diyaluma Falls",
+        },
+        {
+          url: "https://www.travelmapsrilanka.com/destinations/destinationimages/adisham-bungalow-in-sri-lanka.webp",
+          caption: "Adisham Bungalow",
+        },
+        {
+          url: "https://www.haputalesrilanka.com/images/2019/02/17/istockphoto-658384428-612x612.jpg",
+          caption: "Haputale Viewpoint",
+        },
+        {
+          url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Idalgashinna_railway_station_2017.jpg/1200px-Idalgashinna_railway_station_2017.jpg",
+          caption: "Idalgashinna Railway Station",
+        },
+        {
+          url: "https://www.holidify.com/images/bgImages/HAPUTALE.jpg",
+          caption: "Haputale Town",
+        },
+        {
+          url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/ed/14/thangamale-bird-sanctuary.jpg?w=1200&h=-1&s=1",
+          caption: "Thangamale Sanctuary",
+        },
+        {
+          url: "https://media.tacdn.com/media/attractions-splice-spp-674x446/0f/6a/03/2b.jpg",
+          caption: "Tea Plantations around Haputale",
+        },
+        {
+          url: "https://themanduls.com/wp-content/uploads/2024/04/Diyaluma-Falls-18-scaled.jpg",
+          caption: "Diyaluma Falls Close-up",
+        },
+      ],
+    },
+
+    {
       id: 8,
       name: "Arugam Bay",
       location: "Eastern Province, Sri Lanka",
@@ -924,217 +1061,119 @@ export default function NewNew() {
         },
       ],
     },
-    // {
-    //   id: 2,
-    //   name: "Galle",
-    //   location: "Southern Province, Sri Lanka",
-    //   mainImage:
-    //     "https://images.unsplash.com/photo-1604916202282-5e923b9eac9a?w=1200&h=675&fit=crop",
-    //   description:
-    //     "Galle is a UNESCO World Heritage city blending colonial charm with coastal beauty. Its 17th-century Dutch Fort, cobblestone streets, and ocean views create a timeless atmosphere. Visitors can explore boutique shops, art galleries, and cafes within the Fort, or relax by the nearby beaches of Unawatuna and Jungle Beach. Galle seamlessly combines history, culture, and seaside serenity.",
-    //   tags: [
-    //     "History",
-    //     "Beaches",
-    //     "Heritage",
-    //     "Architecture",
-    //     "Culture",
-    //     "Relaxation",
-    //   ],
-    //   videoUrl: "https://www.youtube.com/embed/BhYh6AXd3Lc",
-    //   videoThumbnail:
-    //     "https://images.unsplash.com/photo-1604916202282-5e923b9eac9a?w=1200&h=675&fit=crop",
-    //   highlights: [
-    //     "Galle Fort – UNESCO World Heritage Site with colonial charm",
-    //     "Lighthouse – Iconic coastal landmark within the Fort",
-    //     "Unawatuna Beach – Relaxed swimming and dining spot",
-    //     "Jungle Beach – Hidden cove with turquoise waters",
-    //     "Galle Fort Ramparts – Scenic sunset walks",
-    //     "Boutique Shops & Art Galleries – Local craftsmanship and design",
-    //   ],
-    //   photos: [
-    //     {
-    //       url: "https://images.unsplash.com/photo-1604916202282-5e923b9eac9a?w=800&h=600&fit=crop",
-    //       caption: "Galle Fort Lighthouse",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1626440812461-8ff78b4b9c31?w=800&h=600&fit=crop",
-    //       caption: "Galle Fort Walls",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1578496480907-660cedd2b3a2?w=800&h=600&fit=crop",
-    //       caption: "Unawatuna Beach",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1584531748963-3c26e1ef2a4b?w=800&h=600&fit=crop",
-    //       caption: "Jungle Beach",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1604916202718-fd1c7dd6ed3b?w=800&h=600&fit=crop",
-    //       caption: "Galle Fort Streets",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1624001965963-2f37e964fc3e?w=800&h=600&fit=crop",
-    //       caption: "Sunset Over Galle Harbour",
-    //     },
-    //   ],
-    // },
-
-    // {
-    //   id: 1,
-    //   name: "Bentota",
-    //   location: "Southern Province, Sri Lanka",
-    //   mainImage:
-    //     "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=675&fit=crop",
-    //   description:
-    //     "Bentota is a serene coastal resort town on Sri Lanka’s southwest coast, known for its calm lagoon, golden beaches, and luxurious riverside resorts. It’s a haven for water sports enthusiasts and those seeking relaxation in style. Visitors can enjoy river safaris on the Bentota Ganga, explore the nearby Brief Garden, or unwind with Ayurvedic spa treatments while the sunset paints the horizon.",
-    //   tags: [
-    //     "Beaches",
-    //     "Water Sports",
-    //     "Relaxation",
-    //     "Luxury",
-    //     "Rivers",
-    //     "Ayurveda",
-    //   ],
-    //   videoUrl: "https://www.youtube.com/embed/t0hZlDuhO4A",
-    //   videoThumbnail:
-    //     "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=675&fit=crop",
-    //   highlights: [
-    //     "Bentota Beach – Calm waters and soft golden sand",
-    //     "Madu River Safari – Boat tours through mangroves and islands",
-    //     "Brief Garden – Tropical paradise designed by Bevis Bawa",
-    //     "Bentota Lagoon – Jet-skiing, water-skiing, and banana boat rides",
-    //     "Kosgoda Turtle Hatchery – Sea turtle conservation center",
-    //     "Luxury Resorts – Riverside villas and spa retreats",
-    //   ],
-    //   photos: [
-    //     {
-    //       url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop",
-    //       caption: "Bentota Beach",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
-    //       caption: "Madu River Safari",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop",
-    //       caption: "Bentota Lagoon",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop",
-    //       caption: "Brief Garden",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1600628422010-9970f84bb9b8?w=800&h=600&fit=crop",
-    //       caption: "Kosgoda Turtle Hatchery",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1559599101-7b74752074f4?w=800&h=600&fit=crop",
-    //       caption: "Sunset Over Bentota River",
-    //     },
-    //   ],
-    // },
-
-    // {
-    //   id: 3,
-    //   name: "Unawatuna",
-    //   location: "Southern Province, Sri Lanka",
-    //   mainImage:
-    //     "https://images.unsplash.com/photo-1604916202282-5e923b9eac9a?w=1200&h=675&fit=crop",
-    //   description:
-    //     "Unawatuna is one of Sri Lanka’s most beloved beach towns, known for its palm-fringed bay, turquoise waters, and lively beachside charm. It’s ideal for swimming, snorkeling, and relaxing in boutique resorts. With its coral reefs, jungle walks, and proximity to Galle Fort, Unawatuna offers the perfect coastal escape with a touch of adventure.",
-    //   tags: [
-    //     "Beaches",
-    //     "Snorkeling",
-    //     "Relaxation",
-    //     "Nightlife",
-    //     "Adventure",
-    //     "Reefs",
-    //   ],
-    //   videoUrl: "https://www.youtube.com/embed/GlgcTW8Kz74",
-    //   videoThumbnail:
-    //     "https://images.unsplash.com/photo-1604916202282-5e923b9eac9a?w=1200&h=675&fit=crop",
-    //   highlights: [
-    //     "Unawatuna Beach – Calm waters for swimming",
-    //     "Jungle Beach – Hidden cove surrounded by greenery",
-    //     "Japanese Peace Pagoda – Hilltop with ocean views",
-    //     "Coral Reefs – Snorkeling with tropical fish",
-    //     "Beach Cafés – Trendy spots for dining and cocktails",
-    //     "Proximity to Galle Fort – Easy access to heritage sites",
-    //   ],
-    //   photos: [
-    //     {
-    //       url: "https://images.unsplash.com/photo-1604916202282-5e923b9eac9a?w=800&h=600&fit=crop",
-    //       caption: "Unawatuna Beach",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1584531748963-3c26e1ef2a4b?w=800&h=600&fit=crop",
-    //       caption: "Jungle Beach",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1615484477765-2668d7dfc918?w=800&h=600&fit=crop",
-    //       caption: "Japanese Peace Pagoda",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1558591710-4b4b29e4a2fd?w=800&h=600&fit=crop",
-    //       caption: "Coral Reef Snorkeling",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=800&h=600&fit=crop",
-    //       caption: "Beachfront Cafés",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1626440812461-8ff78b4b9c31?w=800&h=600&fit=crop",
-    //       caption: "Sunset from Unawatuna",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: 3,
-    //   name: "Colombo",
-    //   location: "Western Province, Sri Lanka",
-    //   mainImage:
-    //     "https://images.unsplash.com/photo-1624001965963-2f37e964fc3e?w=1200&h=675&fit=crop",
-    //   description:
-    //     "Colombo, Sri Lanka’s bustling commercial capital, offers a fascinating mix of modern city life and colonial heritage. From the scenic Galle Face Green to vibrant Pettah markets and luxury shopping malls, Colombo provides endless variety. The city’s skyline, seaside promenades, and fusion of cultures make it a lively gateway to the island nation.",
-    //   tags: ["City", "Culture", "Shopping", "Food", "Beaches", "Nightlife"],
-    //   videoUrl: "https://www.youtube.com/embed/0iyrDMSnCjQ",
-    //   videoThumbnail:
-    //     "https://images.unsplash.com/photo-1624001965963-2f37e964fc3e?w=1200&h=675&fit=crop",
-    //   highlights: [
-    //     "Galle Face Green – Popular seaside promenade",
-    //     "Colombo Lotus Tower – Iconic skyline landmark",
-    //     "Pettah Market – Bustling bazaar for local goods",
-    //     "Gangaramaya Temple – Blend of modern and traditional architecture",
-    //     "Colombo National Museum – Island’s largest museum",
-    //     "Colombo Port City – Modern waterfront development",
-    //   ],
-    //   photos: [
-    //     {
-    //       url: "https://images.unsplash.com/photo-1624001965963-2f37e964fc3e?w=800&h=600&fit=crop",
-    //       caption: "Colombo Skyline",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1604916198079-030b5a1b5f13?w=800&h=600&fit=crop",
-    //       caption: "Galle Face Green",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1578509556939-573cfb7c9a9c?w=800&h=600&fit=crop",
-    //       caption: "Colombo Lotus Tower",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1618227018374-3de4897a6cc4?w=800&h=600&fit=crop",
-    //       caption: "Gangaramaya Temple",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1605092512601-2ef5e1a40d51?w=800&h=600&fit=crop",
-    //       caption: "Pettah Market",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1624894225829-63cfc77a540d?w=800&h=600&fit=crop",
-    //       caption: "Colombo Port City",
-    //     },
-    //   ],
-    // },
+    {
+      id: 2,
+      name: "Galle",
+      location: "Southern Province, Sri Lanka",
+      mainImage:
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/24/05/e0/galle-fort.jpg?w=900&h=500&s=1",
+      description:
+        "Galle is a UNESCO World Heritage city blending colonial charm with coastal beauty. Its 17th-century Dutch Fort, cobblestone streets, and ocean views create a timeless atmosphere. Visitors can explore boutique shops, art galleries, and cafes within the Fort, or relax by the nearby beaches of Unawatuna and Jungle Beach. Galle seamlessly combines history, culture, and seaside serenity.",
+      tags: [
+        "History",
+        "Beaches",
+        "Heritage",
+        "Architecture",
+        "Culture",
+        "Relaxation",
+      ],
+      videoUrl: "https://youtube.com/embed/Eq5VXhHUH0o",
+      highlights: [
+        "Galle Fort – UNESCO World Heritage Site with colonial charm",
+        "Lighthouse – Iconic coastal landmark within the Fort",
+        "Unawatuna Beach – Relaxed swimming and dining spot",
+        "Jungle Beach – Hidden cove with turquoise waters",
+        "Galle Fort Ramparts – Scenic sunset walks",
+        "Boutique Shops & Art Galleries – Local craftsmanship and design",
+      ],
+      photos: [
+        {
+          url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lPRtXCFpfSk27oMu8iRt4PM110o1t5VuyQ&s",
+          caption: "Galle Fort Lighthouse",
+        },
+        {
+          url: "https://previews.123rf.com/images/mathess/mathess1801/mathess180100697/92633263-fortification-walls-around-galle-fort-sri-lanka.jpg",
+          caption: "Galle Fort Walls",
+        },
+        {
+          url: "https://www.wondersofceylon.com/content/images/2024/01/WoC-Unawatuna-Beach-Featured.webp",
+          caption: "Unawatuna Beach",
+        },
+        {
+          url: "https://nerdnomads.com/wp-content/uploads/DSC1447.jpg",
+          caption: "Jungle Beach",
+        },
+        {
+          url: "https://i0.wp.com/amazinglanka.com/wp/wp-content/uploads/2014/09/2021-04-06.jpg?ssl=1",
+          caption: "Rumassala Mountain",
+        },
+        {
+          url: "https://www.tripsavvy.com/thmb/t1DdyiX9YXatBnBCpj_FYa2rvEw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-520861892-a60662be1b914d60b2325db5101c9d7e.jpg",
+          caption: "Maritime Archaeology Museum",
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "Colombo",
+      location: "Western Province, Sri Lanka",
+      mainImage:
+        "https://cdn.atrsafari.com/cdn/05explore/locations-and-lodges/asia/srilanka/colombo/0/stills/00page/01-1920.jpg",
+      description:
+        "Colombo, Sri Lanka’s bustling commercial capital, offers a fascinating mix of modern city life and colonial heritage. From the scenic Galle Face Green to vibrant Pettah markets and luxury shopping malls, Colombo provides endless variety. The city’s skyline, seaside promenades, and fusion of cultures make it a lively gateway to the island nation.",
+      tags: ["City", "Culture", "Shopping", "Food", "Beaches", "Nightlife"],
+      videoUrl: "https://youtube.com/embed/_iPUYi4Q-A8?si=YAO7lUdZHczsVFt2",
+      highlights: [
+        "Galle Face Green – Popular seaside promenade",
+        "Colombo Lotus Tower – Iconic skyline landmark",
+        "Pettah Market – Bustling bazaar for local goods",
+        "Gangaramaya Temple – Blend of modern and traditional architecture",
+        "Colombo National Museum – Island’s largest museum",
+        "Colombo Port City – Modern waterfront development",
+      ],
+      photos: [
+        {
+          url: "https://www.attractionsinsrilanka.com/wp-content/uploads/2019/08/Galle-Face-Green.jpg",
+          caption: "Galle Face Green",
+        },
+        {
+          url: "https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ft.lk/assets/uploads/image_510d745e58.jpg",
+          caption: "Colombo Lotus Tower",
+        },
+        {
+          url: "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Cropped_Seema_Malakaya_800x520.jpg",
+          caption: "Gangaramaya Temple",
+        },
+        {
+          url: "https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ft.lk/assets/uploads/image_24e3efaf49.jpg",
+          caption: "Pettah Market",
+        },
+        {
+          url: "https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ft.lk/assets/uploads/image_c06954617e.jpg",
+          caption: "Colombo Port City",
+        },
+        {
+          url: "https://nexttravelsrilanka.com/wp-content/uploads/2023/02/Colombo-National-Museum-1.jpg",
+          caption: "Colombo National Museum",
+        },
+        {
+          url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3cXz4eOqfv7hmPJmmj0vdEPMDoyKFAiIwmQ&s",
+          caption: "Independence Square",
+        },
+        {
+          url: "https://airlinescrewtours.com/wp-content/uploads/2022/09/Dutch-Hospital-2.jpg",
+          caption: "Old Dutch Hospital Colombo",
+        },
+        {
+          url: "https://dreamofacity.com/wp-content/uploads/2017/10/1-cargills-york-st-built-by-walker-sons-and-co-in-1906-occupying-the-former-residence-of-captain-pieter-sluysken-dutch-military-commander-of-galle-1684.jpg",
+          caption: "Colombo Fort",
+        },
+        {
+          url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB7WabIzr2VdZST3HoB6k8DfR4Hj7Kp2vRGw&s",
+          caption: "Royal Colombo Golf Club",
+        },
+      ],
+    },
   ];
 
   return (
