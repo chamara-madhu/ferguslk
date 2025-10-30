@@ -1,9 +1,7 @@
-import React, { useState } from "react";
-import { MapPin, Play, ChevronDown, ChevronUp, Camera } from "lucide-react";
-import { Calendar, ChevronRight, Compass } from "feather-icons-react";
+import { MapPin } from "lucide-react";
+import { Calendar, Compass } from "feather-icons-react";
 
 const DestinationCard = ({ destination }) => {
-  const [selectedImage, setSelectedImage] = useState(null);
 
   return (
     <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm rounded-3xl overflow-hidden shadow-2xl border border-slate-700/50">
@@ -76,7 +74,6 @@ const DestinationCard = ({ destination }) => {
               {destination.photos.map((photo, idx) => (
                 <div
                   key={idx}
-                  onClick={() => setSelectedImage(photo)}
                   className="relative aspect-video rounded-xl overflow-hidden cursor-pointer group"
                 >
                   <img
@@ -104,58 +101,17 @@ const DestinationCard = ({ destination }) => {
                 Video
               </h3>
               <div className="relative aspect-video rounded-xl overflow-hidden shadow-xl group">
-                {/* {!videoPlaying ? (
-                  <>
-                    <img
-                      src={destination.videoThumbnail}
-                      alt="Video thumbnail"
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-                    <button
-                      onClick={() => setVideoPlaying(true)}
-                      className="absolute inset-0 flex items-center justify-center"
-                    >
-                      <div className="w-20 h-20 bg-white/95 rounded-full flex items-center justify-center transform group-hover:scale-110 transition-transform shadow-2xl">
-                        <Play
-                          className="w-10 h-10 text-slate-900 ml-1"
-                          fill="currentColor"
-                        />
-                      </div>
-                    </button>
-                  </>
-                ) : ( */}
                 <iframe
                   src={destination.videoUrl}
                   className="w-full h-full"
                   allow="autoplay; encrypted-media"
                   allowFullScreen
                 />
-                {/* )} */}
               </div>
             </div>
           )}
         </div>
       </div>
-
-      {/* Image Lightbox */}
-      {selectedImage && (
-        <div
-          className="fixed inset-0 bg-black/95 z-50 flex items-center justify-center p-6"
-          onClick={() => setSelectedImage(null)}
-        >
-          <div className="max-w-5xl w-full">
-            <img
-              src={selectedImage.url}
-              alt={selectedImage.caption}
-              className="w-full h-auto rounded-xl shadow-2xl"
-            />
-            <p className="text-white text-center mt-4 text-xl">
-              {selectedImage.caption}
-            </p>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
