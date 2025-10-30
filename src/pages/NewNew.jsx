@@ -665,7 +665,7 @@ export default function NewNew() {
     },
     {
       id: 7,
-      name: "Adam's Peak (Sri Pada)",
+      name: "Sri Pada",
       location: "Sabaragamuwa Province, Sri Lanka",
       mainImage:
         "https://www.ceylonexpeditions.com/medias/destination_places/big/110/sri-pada-adam-s-peak-sri-lanka.jpg",
@@ -684,7 +684,7 @@ export default function NewNew() {
       photos: [
         {
           url: "https://nexttravelsrilanka.com/wp-content/uploads/2021/07/Mountain-View-of-the-Illuminated-Adams-Peak.jpg",
-          caption: "Adam's Peak Summit",
+          caption: "Sri Pada Summit",
         },
         {
           url: "https://preview.redd.it/3kojwdhpu5i61.jpg?width=640&crop=smart&auto=webp&s=c111fb3fd74a695a32483cc559dcb90c23878056",
