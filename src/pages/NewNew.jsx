@@ -3,7 +3,6 @@ import { MapPin, Play, ChevronDown, ChevronUp, Camera } from "lucide-react";
 import { Calendar, ChevronRight, Compass } from "feather-icons-react";
 
 const DestinationCard = ({ destination }) => {
-  const [videoPlaying, setVideoPlaying] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
@@ -221,6 +220,182 @@ export default function NewNew() {
           url: "https://blog.srilanka-villa.com/wp-content/uploads/2018/12/44491776571_e3c023bf77_b-e1545363872880.jpg",
           caption: "St. Mary’s Church",
         },
+      ],
+    },
+    {
+      id: 2,
+      name: "Kalpitiya",
+      location: "North Western Province, Sri Lanka",
+      mainImage:
+        "https://www.srilankainstyle.com/storage/app/media/Locations/Kalpitiya-2.jpg",
+      description:
+        "Kalpitiya is a serene coastal town located on a peninsula in Sri Lanka’s North Western Province. Known for its stunning lagoons, kitesurfing spots, and dolphin-watching tours, Kalpitiya offers a tranquil escape surrounded by natural beauty. The area is home to the Bar Reef Marine Sanctuary and a rich biodiversity, making it a paradise for eco-tourism and adventure seekers alike.",
+      tags: [
+        "Kitesurfing",
+        "Dolphin Watching",
+        "Lagoon Safari",
+        "Beaches",
+        "Marine Life",
+        "Eco-Tourism",
+      ],
+      videoUrl: "https://youtube.com/embed/LOrdl0WHANk",
+      highlights: [
+        "Kalpitiya Lagoon – Ideal for kitesurfing and kayaking",
+        "Dolphin and Whale Watching – Morning boat tours in the Indian Ocean",
+        "Bar Reef – Sri Lanka’s largest coral reef with vibrant marine life",
+        "Wilpattu National Park – Safari trips from nearby Kalpitiya",
+        "Mangrove Boat Tours – Explore the lagoon’s natural ecosystem",
+        "Beach Camping – Scenic stays under the stars",
+      ],
+      photos: [
+        {
+          url: "https://www.windsoul.cz/UserFiles/Image/1519205365de-silva-windresort-kalpitiya.jpg",
+          caption: "Kalpitiya Lagoon",
+        },
+        {
+          url: "https://images.squarespace-cdn.com/content/v1/5b460cc131d4df15a6e88782/1540366895919-WFPGQDMJ81Z4APZC7IPR/dolphin-watching-kalpitiya-boat-trip.jpg",
+          caption: "Dolphin Watching in Kalpitiya",
+        },
+        {
+          url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4WTFL0SFR-q-bzB4bPvnqQ3VQRnS0_issHg&s",
+          caption: "Kitesurfing Adventure",
+        },
+        {
+          url: "https://lakpura.com/cdn/shop/products/LK58150200-02-E-1280-720.jpg?v=1620986077&width=1445",
+          caption: "Bar Reef Snorkeling",
+        },
+        {
+          url: "https://www.attractionsinsrilanka.com/wp-content/uploads/2020/06/Wilpattu-National-Park-1.jpg",
+          caption: "Wilpattu National Park",
+        },
+        {
+          url: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0b/1c/f8/2d.jpg",
+          caption: "Mangrove Lagoon Boat Ride",
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "Anuradhapura",
+      location: "North Central Province, Sri Lanka",
+      mainImage:
+        "https://travelrebels.com/wp-content/uploads/2018/06/anuradhapura-sunset.jpg",
+      description:
+        "Anuradhapura, one of Sri Lanka’s ancient capitals and a UNESCO World Heritage Site, is a city of timeless spirituality and history. Home to well-preserved ruins, massive stupas, ancient monasteries, and the sacred Sri Maha Bodhi tree, Anuradhapura offers a deep journey into Sri Lanka’s Buddhist heritage. The city’s tranquil surroundings and archaeological marvels make it a must-visit for culture and history enthusiasts.",
+      tags: [
+        "Cultural Heritage",
+        "History",
+        "Buddhism",
+        "UNESCO Site",
+        "Temples",
+        "Archaeology",
+      ],
+      videoUrl: "https://youtube.com/embed/RQ43ASCJhYA",
+      highlights: [
+        "Sri Maha Bodhi – Sacred fig tree over 2,000 years old",
+        "Ruwanwelisaya – Majestic white stupa built by King Dutugemunu",
+        "Jetavanaramaya – One of the tallest brick structures in the ancient world",
+        "Abhayagiri Monastery – Spiritual and architectural wonder",
+        "Isurumuniya Temple – Famous for ‘Lovers’ rock carving",
+        "Anuradhapura Museum – Artifacts and historical exhibits",
+      ],
+      photos: [
+        {
+          url: "https://www.wondersofceylon.com/content/images/2024/01/WoC-Sri-Maha-Bodhi-Featured.png",
+          caption: "Sri Maha Bodhi Tree",
+        },
+        {
+          url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/RuwanwelisayaFromSky.jpg/330px-RuwanwelisayaFromSky.jpg",
+          caption: "Ruwanwelisaya Stupa",
+        },
+        {
+          url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Jetavanaramaya_Stupa_profile.jpg/1200px-Jetavanaramaya_Stupa_profile.jpg",
+          caption: "Jetavanaramaya Stupa",
+        },
+        {
+          url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/05/26/a3/front-view.jpg?w=1200&h=-1&s=1",
+          caption: "Isurumuniya Temple",
+        },
+        {
+          url: "https://mediaim.expedia.com/localexpert/1169831/70160d89-184f-4cfc-b0c9-588564794d36.jpg?impolicy=resizecrop&rw=1005&rh=565",
+          caption: "Ancient Ruins in Anuradhapura",
+        },
+        {
+          url: "https://blogger.googleusercontent.com/img/a/AVvXsEg9Y70NPaFtjGX0-T4Jl9s8BpDLr-0ofobNmbDQopyw0Zldr4AMft4NfDP2V6LkwUEzJVZ5bLtNJqJp9AcYkxR1zxDmwZjhqhl_NIlnJct6VAM3XHE3FfvX_pQhIB9iVi9M-ltF61p5wzoiyBx1CrosVaP3GtlQaEjpeWD0vCSADfrtEM2hn768r9Gfrw=s1011-rw",
+          caption: "Anuradhapura Archaeological Museum",
+        },
+        {
+          url: "https://www.trawell.in/admin/images/upload/07208955Anuradhapura_Abhayagiri.jpg",
+          caption: "Abhayagiri Monastery",
+        },
+        {
+          url: "https://www.historyhit.com/app/uploads/2020/11/Thuparamaya.jpg",
+          caption: "Thuparamaya Dagoba",
+        },
+        {
+          url: "https://ianlockwood.blog/wp-content/uploads/2020/08/thuparama_fields_moonstone_pan_1bwmr07_20.jpg",
+          caption: "Moonstone Carving at Anuradhapura",
+        },
+      ],
+    },
+    {
+      id: 4,
+      name: "Polonnaruwa",
+      location: "North Central Province, Sri Lanka",
+      mainImage:
+        "https://wherethesoulswander.com/wp-content/uploads/2019/12/things-to-do-in-Polonnaruwa-1.jpg",
+      description:
+        "Polonnaruwa, another UNESCO World Heritage Site, served as Sri Lanka’s medieval capital from the 11th to 13th centuries. This ancient city showcases a blend of Buddhist artistry, royal architecture, and advanced irrigation systems. Visitors can explore grand palaces, rock-carved Buddha statues, and sacred stupas scattered among serene lakes and forests — a window into Sri Lanka’s golden age of civilization.",
+      tags: [
+        "Cultural Heritage",
+        "History",
+        "UNESCO Site",
+        "Archaeology",
+        "Temples",
+        "Buddhism",
+      ],
+      videoUrl: "https://youtube.com/embed/RDpu0R-Xwqw",
+      highlights: [
+        "Gal Vihara – Rock-cut Buddha statues in perfect serenity",
+        "Royal Palace of King Parakramabahu – Ancient royal residence ruins",
+        "Parakrama Samudraya – Massive reservoir built for irrigation",
+        "Quadrangle (Dalada Maluwa) – Sacred area with ancient shrines",
+        "Rankoth Vehera – Large stupa symbolizing Buddhist devotion",
+        "Lankatilaka Vihara – Towering brick temple with a standing Buddha image",
+      ],
+      photos: [
+        {
+          url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn09Duvth67YqCsGaR0xibOMCgwZwn2LLiyToFMTmyYDLhSgscYz0DZRIL5j4ZdtIfBfU&usqp=CAU",
+          caption: "Gal Vihara Buddha Statues",
+        },
+        {
+          url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/22/39/33/20181225-152637-largejpg.jpg?w=1200&h=-1&s=1",
+          caption: "Rankoth Vehera Stupa",
+        },
+        {
+          url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Lankathilaka_Vhihara_-_Le_temple.JPG/1200px-Lankathilaka_Vhihara_-_Le_temple.JPG",
+          caption: "Lankatilaka Vihara",
+        },
+        {
+          url: "https://overatours.com/wp-content/uploads/2021/10/The-Sacred-Quadrangle.jpg",
+          caption: "Quadrangle (Dalada Maluwa)",
+        },
+        {
+          url: "https://www.orientalarchitecture.com/gallery/sri-lanka/polonnaruwa/parakramabahu-royal-palace/photos/parakramabahu_royal-palace03.jpg",
+          caption: "Royal Palace of King Parakramabahu I",
+        },
+        {
+          url: "https://i1.wp.com/amazinglanka.com/wp/wp-content/uploads/2013/09/parakrama_samudraya_03.jpg?ssl=1",
+          caption: "Parakrama Samudraya Reservoir",
+        },
+        {
+          url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX_nimKwwpXXsUioOO10q1eljjKOR72nbp_A&s",
+          caption: "Reclining Buddha at Gal Vihara",
+        },
+        {
+          url: "https://c8.alamy.com/comp/DP2KAT/asia-sri-lanka-polonnaruwa-the-ruins-of-the-medieval-capital-city-DP2KAT.jpg",
+          caption: "Ruins of Polonnaruwa City",
+        }
       ],
     },
     {
@@ -451,9 +626,8 @@ export default function NewNew() {
         "Lipton's Seat – Famous viewpoint offering sweeping tea plantation vistas",
         "Ravana Pool Club – Leisure spot with pools and panoramic views",
         "Ella Train Ride – Scenic train journey through mountains and tea estates",
-        "Udawalawe National Park – Wildlife sanctuary known for elephants and safari tours"
-      ]
-      ,
+        "Udawalawe National Park – Wildlife sanctuary known for elephants and safari tours",
+      ],
       photos: [
         {
           url: "https://adaderanaenglish.s3.amazonaws.com/1746347960-Bridge.jpg",
@@ -489,215 +663,267 @@ export default function NewNew() {
         },
       ],
     },
-    // {
-    //   id: 3,
-    //   name: "Adam's Peak (Sri Pada)",
-    //   location: "Sabaragamuwa Province, Sri Lanka",
-    //   mainImage:
-    //     "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=1200&h=800&fit=crop",
-    //   description:
-    //     "Sri Pada, also known as Adam's Peak, is a 2,243-meter tall conical mountain that holds immense religious significance for Buddhists, Hindus, Christians, and Muslims. The pilgrimage to the summit is best undertaken at night to witness the spectacular sunrise from the peak. The sacred footprint at the summit and the pyramid-shaped shadow cast at dawn make this one of Sri Lanka's most spiritual and memorable experiences.",
-    //   tags: ["Pilgrimage", "Hiking", "Sunrise", "Sacred Site"],
-    //   videoUrl: "https://www.youtube.com/embed/GxdQ3n7cZDw",
-    //   videoThumbnail:
-    //     "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=1200&h=675&fit=crop",
-    //   highlights: [
-    //     "Sacred footprint at the summit",
-    //     "Spectacular sunrise views",
-    //     "Night pilgrimage experience",
-    //     "5,500 steps to the peak",
-    //     "Triangle shadow phenomenon",
-    //     "Multi-faith pilgrimage site",
-    //   ],
-    //   photos: [
-    //     {
-    //       url: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&h=600&fit=crop",
-    //       caption: "Adam's Peak Summit",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
-    //       caption: "Sunrise View",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop",
-    //       caption: "Mountain Landscape",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&h=600&fit=crop",
-    //       caption: "Pilgrimage Trail",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
-    //       caption: "Dawn Breaking",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800&h=600&fit=crop",
-    //       caption: "Mountain Peak",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: 1,
-    //   name: "Arugam Bay",
-    //   location: "Eastern Province, Sri Lanka",
-    //   mainImage:
-    //     "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=675&fit=crop",
-    //   description:
-    //     "Arugam Bay, located on Sri Lanka’s east coast, is a world-famous surf destination known for its golden beaches, laid-back atmosphere, and warm ocean waves. Popular among surfers, backpackers, and nature lovers alike, Arugam Bay offers a blend of adventure and tranquility. From surfing at Main Point to spotting elephants at Lahugala National Park, this coastal haven perfectly captures the island’s tropical charm.",
-    //   tags: [
-    //     "Beaches",
-    //     "Surfing",
-    //     "Wildlife",
-    //     "Relaxation",
-    //     "Nature",
-    //     "Adventure",
-    //   ],
-    //   videoUrl: "https://www.youtube.com/embed/GjQzVxZJdGA",
-    //   videoThumbnail:
-    //     "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=675&fit=crop",
-    //   highlights: [
-    //     "Main Point – World-class surf break for experienced surfers",
-    //     "Whisky Point – Relaxed surf spot with beach cafés",
-    //     "Elephant Rock – Panoramic viewpoint and surf location",
-    //     "Lahugala National Park – Elephants and birdlife nearby",
-    //     "Pottuvil Lagoon – Boat rides through mangroves and wildlife",
-    //     "Local Beach Vibe – Yoga retreats, seafood, and sunset bars",
-    //   ],
-    //   photos: [
-    //     {
-    //       url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop",
-    //       caption: "Arugam Bay Beach",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop",
-    //       caption: "Surfing at Main Point",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?w=800&h=600&fit=crop",
-    //       caption: "Whisky Point",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1600093463592-c6d4f0b4b34b?w=800&h=600&fit=crop",
-    //       caption: "Elephant Rock",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&h=600&fit=crop",
-    //       caption: "Lahugala National Park",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
-    //       caption: "Pottuvil Lagoon",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: 1,
-    //   name: "Yala National Park",
-    //   location: "Southern Province, Sri Lanka",
-    //   mainImage:
-    //     "https://images.unsplash.com/photo-1581167768950-0b4f78efbb9f?w=1200&h=675&fit=crop",
-    //   description:
-    //     "Yala National Park is Sri Lanka’s most visited and second-largest national park, renowned for its incredible biodiversity and high density of leopards. Stretching across dry forests, grasslands, and lagoons along the southeast coast, Yala offers visitors the thrill of safari adventures and breathtaking encounters with elephants, crocodiles, and exotic birds. It’s a paradise for wildlife photographers and nature enthusiasts alike.",
-    //   tags: [
-    //     "Wildlife",
-    //     "Safari",
-    //     "Nature",
-    //     "Photography",
-    //     "Adventure",
-    //     "Leopards",
-    //   ],
-    //   videoUrl: "https://www.youtube.com/embed/Hy2Y0yJYJg8",
-    //   videoThumbnail:
-    //     "https://images.unsplash.com/photo-1581167768950-0b4f78efbb9f?w=1200&h=675&fit=crop",
-    //   highlights: [
-    //     "Leopard Safaris – Spot the world’s highest leopard density",
-    //     "Elephants & Crocodiles – Frequent sightings near waterholes",
-    //     "Birdwatching – Over 200 species including peacocks and eagles",
-    //     "Patanangala Beach – Scenic coastal edge within the park",
-    //     "Sithulpawwa Rock Temple – Ancient Buddhist monastery in the wilderness",
-    //     "Yala Block 1 – Most popular region for safari drives",
-    //   ],
-    //   photos: [
-    //     {
-    //       url: "https://images.unsplash.com/photo-1581167768950-0b4f78efbb9f?w=800&h=600&fit=crop",
-    //       caption: "Yala Leopard Safari",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1616400619177-9ccaa7ef1d62?w=800&h=600&fit=crop",
-    //       caption: "Elephants at Yala",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1615484477765-2668d7dfc918?w=800&h=600&fit=crop",
-    //       caption: "Crocodile near Lake",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1576495199017-478dc9ce5a2e?w=800&h=600&fit=crop",
-    //       caption: "Peacock in the Wild",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1602080786366-b20b0a7e1f24?w=800&h=600&fit=crop",
-    //       caption: "Patanangala Beach",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1598951803969-80a0b2f8e8b4?w=800&h=600&fit=crop",
-    //       caption: "Sithulpawwa Rock Temple",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: 1,
-    //   name: "Hikkaduwa",
-    //   location: "Southern Province, Sri Lanka",
-    //   mainImage:
-    //     "https://images.unsplash.com/photo-1546484959-fb026dcfff4d?w=1200&h=675&fit=crop",
-    //   description:
-    //     "Hikkaduwa is a vibrant coastal town on Sri Lanka’s southwest coast, famous for its coral reefs, surfing waves, and energetic beachside atmosphere. Known for its clear waters, sea turtles, and lively nightlife, Hikkaduwa offers the perfect mix of relaxation and adventure. Visitors can snorkel among tropical fish, enjoy fresh seafood, or unwind to reggae beats by the ocean.",
-    //   tags: [
-    //     "Beaches",
-    //     "Surfing",
-    //     "Snorkeling",
-    //     "Coral Reefs",
-    //     "Nightlife",
-    //     "Seafood",
-    //   ],
-    //   videoUrl: "https://www.youtube.com/embed/gAgUufbqNKM",
-    //   videoThumbnail:
-    //     "https://images.unsplash.com/photo-1546484959-fb026dcfff4d?w=1200&h=675&fit=crop",
-    //   highlights: [
-    //     "Hikkaduwa Beach – Long sandy stretch with surf spots",
-    //     "Coral Sanctuary – Snorkeling with tropical marine life",
-    //     "Turtle Hatchery – Conservation and sea turtle viewing",
-    //     "Beachfront Restaurants – Fresh seafood and sunset dining",
-    //     "Surfing at Main Reef – Waves for all skill levels",
-    //     "Nightlife – Bars, cafes, and beach parties",
-    //   ],
-    //   photos: [
-    //     {
-    //       url: "https://images.unsplash.com/photo-1546484959-fb026dcfff4d?w=800&h=600&fit=crop",
-    //       caption: "Hikkaduwa Beach",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1558591710-4b4b29e4a2fd?w=800&h=600&fit=crop",
-    //       caption: "Coral Reef Snorkeling",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1535121063081-72e8ec774c8f?w=800&h=600&fit=crop",
-    //       caption: "Surfing in Hikkaduwa",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
-    //       caption: "Sea Turtles Near Shore",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=800&h=600&fit=crop",
-    //       caption: "Beachfront Cafés",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1600628422010-9970f84bb9b8?w=800&h=600&fit=crop",
-    //       caption: "Sunset at Hikkaduwa",
-    //     },
-    //   ],
-    // },
+    {
+      id: 7,
+      name: "Adam's Peak (Sri Pada)",
+      location: "Sabaragamuwa Province, Sri Lanka",
+      mainImage:
+        "https://www.ceylonexpeditions.com/medias/destination_places/big/110/sri-pada-adam-s-peak-sri-lanka.jpg",
+      description:
+        "Sri Pada, also known as Adam's Peak, is a 2,243-meter tall conical mountain that holds immense religious significance for Buddhists, Hindus, Christians, and Muslims. The pilgrimage to the summit is best undertaken at night to witness the spectacular sunrise from the peak. The sacred footprint at the summit and the pyramid-shaped shadow cast at dawn make this one of Sri Lanka's most spiritual and memorable experiences.",
+      tags: ["Pilgrimage", "Hiking", "Sunrise", "Sacred Site"],
+      videoUrl: "https://youtube.com/embed/uQLeM2RnaW8",
+      highlights: [
+        "Sacred footprint at the summit",
+        "Spectacular sunrise views",
+        "Night pilgrimage experience",
+        "5,500 steps to the peak",
+        "Triangle shadow phenomenon",
+        "Multi-faith pilgrimage site",
+      ],
+      photos: [
+        {
+          url: "https://nexttravelsrilanka.com/wp-content/uploads/2021/07/Mountain-View-of-the-Illuminated-Adams-Peak.jpg",
+          caption: "Adam's Peak Summit",
+        },
+        {
+          url: "https://preview.redd.it/3kojwdhpu5i61.jpg?width=640&crop=smart&auto=webp&s=c111fb3fd74a695a32483cc559dcb90c23878056",
+          caption: "Sacred footprint at the summit",
+        },
+        {
+          url: "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e6/6a/2d.jpg",
+          caption: "Sunrise View",
+        },
+        {
+          url: "https://www.shutterstock.com/image-photo/beautiful-mountain-landscape-adams-peak-260nw-564552430.jpg",
+          caption: "Mountain Landscape",
+        },
+        {
+          url: "https://slingadventures.com/wp-content/uploads/2017/09/Adams-peak-descent.jpg",
+          caption: "Pilgrimage Trail",
+        },
+        {
+          url: "https://withlocals-com-res.cloudinary.com/image/upload/w_480,h_270,c_fill,g_auto,q_auto,dpr_3.0,f_auto/443ef5f0b7718255afdccb56dc0c6ca9",
+          caption: "Mountain Peak",
+        },
+      ],
+    },
+    {
+      id: 8,
+      name: "Arugam Bay",
+      location: "Eastern Province, Sri Lanka",
+      mainImage:
+        "https://srilankaexplorers.com/wp-content/uploads/2025/07/blog-post-photo-3-1296x700.png",
+      description:
+        "Arugam Bay, located on Sri Lanka’s east coast, is a world-famous surf destination known for its golden beaches, laid-back atmosphere, and warm ocean waves. Popular among surfers, backpackers, and nature lovers alike, Arugam Bay offers a blend of adventure and tranquility. From surfing at Main Point to spotting elephants at Lahugala National Park, this coastal haven perfectly captures the island’s tropical charm.",
+      tags: [
+        "Beaches",
+        "Surfing",
+        "Wildlife",
+        "Relaxation",
+        "Nature",
+        "Adventure",
+      ],
+      videoUrl: "https://youtube.com/embed/pt07PvGvAZI",
+      highlights: [
+        "Main Point – World-class surf break for experienced surfers",
+        "Whisky Point – Relaxed surf spot with beach cafés",
+        "Elephant Rock – Panoramic viewpoint and surf location",
+        "Lahugala National Park – Elephants and birdlife nearby",
+        "Pottuvil Lagoon – Boat rides through mangroves and wildlife",
+        "Local Beach Vibe – Yoga retreats, seafood, and sunset bars",
+      ],
+      photos: [
+        {
+          url: "https://www.kingsrentacar.com/wp-content/uploads/2025/06/A-Guide-to-Arugam-Bay-A-Must-Visit-Travel-Destination-in-Sri-Lanka-945x590-1-720x450.webp",
+          caption: "Arugam Bay Beach",
+        },
+        {
+          url: "https://ceylonwingtours.com/wp-content/uploads/2024/11/Arugam-Bay-Sri-Lanka-6.jpg",
+          caption: "Surfer's Paradise",
+        },
+        {
+          url: "https://blog.surabilankatravel.com/wp-content/uploads/2023/06/Kite-Surf-Sri-Lanka-9.jpg",
+          caption: "Kite Surfing",
+        },
+        {
+          url: "https://www.travelmapsrilanka.com/destinations/destinationimages/elephant-rock-point-arugam-bay.webp",
+          caption: "Elephant Rock",
+        },
+        {
+          url: "https://www.cctsrilanka.com/wp-content/uploads/2017/11/cctsrilanka.com_.ArugamBay.LahugalaNationalPark-2.jpg",
+          caption: "Lahugala National Park",
+        },
+        {
+          url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/51/3a/2e/birds-at-kumana.jpg?w=1200&h=-1&s=1",
+          caption: "Kumana National Park",
+        },
+        {
+          url: "https://arugambaytours.com/wp-content/uploads/2016/11/PHOTO-2018-10-26-14-26-16.jpg",
+          caption: "Pottuvil Lagoon",
+        },
+        {
+          url: "https://media-cdn.tripadvisor.com/media/photo-s/17/23/85/6d/img20190324104015-largejpg.jpg",
+          caption: "Muhudu Maha Viharaya",
+        },
+      ],
+    },
+    {
+      id: 9,
+      name: "Yala National Park",
+      location: "Southern Province, Sri Lanka",
+      mainImage:
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/36/fb/cb/yala-national-park-located.jpg?w=1200&h=-1&s=1",
+      description:
+        "Yala National Park is Sri Lanka’s most visited and second-largest national park, renowned for its incredible biodiversity and high density of leopards. Stretching across dry forests, grasslands, and lagoons along the southeast coast, Yala offers visitors the thrill of safari adventures and breathtaking encounters with elephants, crocodiles, and exotic birds. It’s a paradise for wildlife photographers and nature enthusiasts alike.",
+      tags: [
+        "Wildlife",
+        "Safari",
+        "Nature",
+        "Photography",
+        "Adventure",
+        "Leopards",
+      ],
+      videoUrl: "https://youtube.com/embed/-z5ZvyfDYPM",
+      highlights: [
+        "Leopard Safaris – Spot the world’s highest leopard density",
+        "Elephants & Crocodiles – Frequent sightings near waterholes",
+        "Birdwatching – Over 200 species including peacocks and eagles",
+        "Patanangala Beach – Scenic coastal edge within the park",
+        "Sithulpawwa Rock Temple – Ancient Buddhist monastery in the wilderness",
+        "Yala Block 1 – Most popular region for safari drives",
+      ],
+      photos: [
+        {
+          url: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/74/b6/41.jpg",
+          caption: "Yala Leopard Safari",
+        },
+        {
+          url: "https://www.wendywutours.com/resource/upload/759/banner-elephant-orphange.jpg.webp",
+          caption: "Elephants at Yala",
+        },
+        {
+          url: "https://media.istockphoto.com/id/2172436712/photo/crocodile-going-for-an-early-morning-bite-in-sri-lanka.jpg?s=612x612&w=0&k=20&c=vMRUp2FVwRmx6AExIxFq3wIEYewMm7PBXeVZ2JiZu_s=",
+          caption: "Crocodile near Lake",
+        },
+        {
+          url: "https://previews.123rf.com/images/sergieiev/sergieiev1202/sergieiev120200072/12565564-wild-peacock-in-yala-national-park-sri-lanka.jpg",
+          caption: "Peacock in the Wild",
+        },
+        {
+          url: "https://sun-b2b.s3.us-east-2.amazonaws.com/attraction/2023-10-18things17-34-26.jpg",
+          caption: "Patanangala Beach",
+        },
+        {
+          url: "https://theportuguesetraveler.com/wp-content/uploads/2024/11/sithulpawwa-rock-temple-yala-sri-lanka-42.jpg.webp",
+          caption: "Sithulpawwa Rock Temple",
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Mirissa",
+      location: "Southern Province, Sri Lanka",
+      mainImage:
+        "https://digitaltravelcouple.com/wp-content/uploads/2020/01/mirissa-beach-sri-lanka-1.jpg",
+      description:
+        "Mirissa is a tropical paradise known for its crescent-shaped beach, turquoise waters, and laid-back atmosphere. It’s one of Sri Lanka’s best spots for whale watching, surfing, and beachfront dining. With palm-fringed shores and picture-perfect sunsets, Mirissa perfectly balances relaxation and adventure, making it a favorite among both locals and travelers.",
+      tags: [
+        "Beaches",
+        "Whale Watching",
+        "Surfing",
+        "Relaxation",
+        "Sunsets",
+        "Nightlife",
+      ],
+      videoUrl: "https://youtube.com/embed/lgDtGXByVQM",
+      highlights: [
+        "Mirissa Beach – Iconic crescent-shaped golden beach",
+        "Coconut Tree Hill – Scenic viewpoint over the ocean",
+        "Whale Watching Tours – Spot blue and sperm whales",
+        "Parrot Rock – Natural viewpoint near the shore",
+        "Surfing Spots – Gentle waves for beginners",
+        "Beachfront Cafés – Sunset dining and chilled vibes",
+      ],
+      photos: [
+        {
+          url: "https://destinationlesstravel.com/wp-content/uploads/2021/10/Bailey-at-Parrot-Rock-in-Mirissa-Sri-Lanka.jpg.webp",
+          caption: "Mirissa Beach",
+        },
+        {
+          url: "https://destinationlesstravel.com/wp-content/uploads/2019/07/20190424_074703.jpg.webp",
+          caption: "Coconut Tree Hill",
+        },
+        {
+          url: "https://destinationlesstravel.com/wp-content/uploads/2019/04/cramit_img_20170627_00511720170627_140924-e1519906197955.jpg.webp",
+          caption: "Whale Watching Boat Tour",
+        },
+        {
+          url: "https://www.laurewanders.com/wp-content/uploads/2023/12/Things-to-do-in-Mirissa-00005.jpg",
+          caption: "Parrot Rock",
+        },
+        {
+          url: "https://overatours.com/wp-content/uploads/2021/10/Surfing-in-Mirissa.jpg",
+          caption: "Surfing at Mirissa",
+        },
+        {
+          url: "https://worldtravelfamily.com/wp-content/uploads/2013/11/Mirissa-Beach-Sri-Lanka.jpeg",
+          caption: "Sunset Dining by the Beach",
+        },
+      ],
+    },
+    {
+      id: 1,
+      name: "Hikkaduwa",
+      location: "Southern Province, Sri Lanka",
+      mainImage:
+        "https://www.lovesrilanka.org/wp-content/uploads/2020/06/LSL_B2_Hikkaduwa-Beach_800x520.jpg",
+      description:
+        "Hikkaduwa is a vibrant coastal town on Sri Lanka’s southwest coast, famous for its coral reefs, surfing waves, and energetic beachside atmosphere. Known for its clear waters, sea turtles, and lively nightlife, Hikkaduwa offers the perfect mix of relaxation and adventure. Visitors can snorkel among tropical fish, enjoy fresh seafood, or unwind to reggae beats by the ocean.",
+      tags: [
+        "Beaches",
+        "Surfing",
+        "Snorkeling",
+        "Coral Reefs",
+        "Nightlife",
+        "Seafood",
+      ],
+      videoUrl: "https://youtube.com/embed/yEVPfup4hgM",
+      highlights: [
+        "Hikkaduwa Beach – Long sandy stretch with surf spots",
+        "Coral Sanctuary – Snorkeling with tropical marine life",
+        "Turtle Hatchery – Conservation and sea turtle viewing",
+        "Beachfront Restaurants – Fresh seafood and sunset dining",
+        "Surfing at Main Reef – Waves for all skill levels",
+        "Nightlife – Bars, cafes, and beach parties",
+      ],
+      photos: [
+        {
+          url: "https://digitaltravelcouple.com/wp-content/uploads/2020/01/hikkaduwa-beach-drone-1.jpg",
+          caption: "Hikkaduwa Beach",
+        },
+        {
+          url: "https://www.bestoflanka.com/images/slider/best-things-to-do-in-sri-lanka/under-water-diving-and-snorekeling/under-water-diving-and-snorekeling-hikkaduwa/01.jpg",
+          caption: "Coral Reef Snorkeling",
+        },
+        {
+          url: "https://www.hotelthailanka.com/images/gallery/outdoor/surfing/Surfing%202%20Hikkaduwa.jpg",
+          caption: "Surfing in Hikkaduwa",
+        },
+        {
+          url: "https://www.steuartholidays.com/wp-content/uploads/2019/02/Turtle-3-2.jpg",
+          caption: "Sea Turtles Near Shore",
+        },
+        {
+          url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/60/f6/9b/sea-turtle-farm-and-hatchery.jpg?w=1200&h=-1&s=1",
+          caption: "Turtle Hatchery",
+        },
+        {
+          url: "https://cdn1.tripoto.com/media/filter/nl/img/2380291/Image/1700466746_202695918.jpg.webp",
+          caption: "Beachfront Cafés",
+        },
+      ],
+    },
     // {
     //   id: 2,
     //   name: "Galle",
@@ -807,60 +1033,7 @@ export default function NewNew() {
     //     },
     //   ],
     // },
-    // {
-    //   id: 2,
-    //   name: "Mirissa",
-    //   location: "Southern Province, Sri Lanka",
-    //   mainImage:
-    //     "https://images.unsplash.com/photo-1605003165121-3b6d4a4e10d7?w=1200&h=675&fit=crop",
-    //   description:
-    //     "Mirissa is a tropical paradise known for its crescent-shaped beach, turquoise waters, and laid-back atmosphere. It’s one of Sri Lanka’s best spots for whale watching, surfing, and beachfront dining. With palm-fringed shores and picture-perfect sunsets, Mirissa perfectly balances relaxation and adventure, making it a favorite among both locals and travelers.",
-    //   tags: [
-    //     "Beaches",
-    //     "Whale Watching",
-    //     "Surfing",
-    //     "Relaxation",
-    //     "Sunsets",
-    //     "Nightlife",
-    //   ],
-    //   videoUrl: "https://www.youtube.com/embed/T-Fe2y3xJYs",
-    //   videoThumbnail:
-    //     "https://images.unsplash.com/photo-1605003165121-3b6d4a4e10d7?w=1200&h=675&fit=crop",
-    //   highlights: [
-    //     "Mirissa Beach – Iconic crescent-shaped golden beach",
-    //     "Coconut Tree Hill – Scenic viewpoint over the ocean",
-    //     "Whale Watching Tours – Spot blue and sperm whales",
-    //     "Parrot Rock – Natural viewpoint near the shore",
-    //     "Surfing Spots – Gentle waves for beginners",
-    //     "Beachfront Cafés – Sunset dining and chilled vibes",
-    //   ],
-    //   photos: [
-    //     {
-    //       url: "https://images.unsplash.com/photo-1605003165121-3b6d4a4e10d7?w=800&h=600&fit=crop",
-    //       caption: "Mirissa Beach",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1604665399327-fcc82efb6b63?w=800&h=600&fit=crop",
-    //       caption: "Coconut Tree Hill",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&h=600&fit=crop",
-    //       caption: "Whale Watching Boat Tour",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1579027989531-99be88a15f52?w=800&h=600&fit=crop",
-    //       caption: "Parrot Rock",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=800&h=600&fit=crop",
-    //       caption: "Surfing at Mirissa",
-    //     },
-    //     {
-    //       url: "https://images.unsplash.com/photo-1559599101-7b74752074f4?w=800&h=600&fit=crop",
-    //       caption: "Sunset Dining by the Beach",
-    //     },
-    //   ],
-    // },
+
     // {
     //   id: 3,
     //   name: "Unawatuna",
@@ -966,60 +1139,67 @@ export default function NewNew() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
-    <div className="relative h-screen overflow-hidden bg-slate-950">
-      {/* Background Image with Overlay */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "url('https://images.pexels.com/photos/319892/pexels-photo-319892.jpeg')"
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/60 to-slate-950"></div>
-      </div>
-      
-      {/* Navigation */}
-      <nav className="relative z-20 flex items-center justify-between px-8 py-6">
-        <div className="flex items-center space-x-3">
-          <div className="w-12 h-12 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center shadow-lg shadow-emerald-500/30">
-            <Compass className="w-6 h-6 text-white" />
+      <div className="relative h-screen overflow-hidden bg-slate-950">
+        {/* Background Image with Overlay */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage:
+              "url('https://images.pexels.com/photos/319892/pexels-photo-319892.jpeg')",
+          }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/60 to-slate-950"></div>
+        </div>
+
+        {/* Navigation */}
+        <nav className="relative z-20 flex items-center justify-between px-8 py-6">
+          <div className="flex items-center space-x-3">
+            <div className="w-12 h-12 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center shadow-lg shadow-emerald-500/30">
+              <Compass className="w-6 h-6 text-white" />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold tracking-tight text-white">
+                Fergus's Travels
+              </h2>
+              <p className="text-xs text-emerald-400 font-medium">
+                Sri Lanka Adventures
+              </p>
+            </div>
           </div>
-          <div>
-            <h2 className="text-2xl font-bold tracking-tight text-white">Fergus's Travels</h2>
-            <p className="text-xs text-emerald-400 font-medium">Sri Lanka Adventures</p>
+        </nav>
+
+        {/* Hero Content */}
+        <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6 -mt-20">
+          {/* Badge */}
+          <div className="mb-6 inline-flex items-center space-x-2 px-6 py-3 bg-emerald-500/10 border border-emerald-500/30 rounded-full backdrop-blur-md animate-fade-in">
+            <Calendar className="w-4 h-4 text-emerald-400" />
+            <span className="text-emerald-400 font-medium tracking-wide">
+              Planning My Dream Trip
+            </span>
+          </div>
+
+          {/* Main Heading */}
+          <h1 className="text-7xl md:text-8xl lg:text-9xl font-bold mb-6 tracking-tight leading-none text-white">
+            Discovering
+            <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 animate-gradient">
+              Sri Lanka
+            </span>
+          </h1>
+
+          {/* Subheading */}
+          <p className="text-xl md:text-2xl text-gray-300 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
+            Join me as I explore the pearl of the Indian Ocean. From ancient
+            temples to pristine beaches, tracking my journey through paradise.
+          </p>
+        </div>
+
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
+          <div className="w-6 h-10 border-2 border-emerald-400/50 rounded-full flex items-start justify-center p-2">
+            <div className="w-1.5 h-3 bg-emerald-400/50 rounded-full animate-scroll"></div>
           </div>
         </div>
-      </nav>
-
-      {/* Hero Content */}
-      <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6 -mt-20">
-        {/* Badge */}
-        <div className="mb-6 inline-flex items-center space-x-2 px-6 py-3 bg-emerald-500/10 border border-emerald-500/30 rounded-full backdrop-blur-md animate-fade-in">
-          <Calendar className="w-4 h-4 text-emerald-400" />
-          <span className="text-emerald-400 font-medium tracking-wide">Planning My Dream Trip</span>
-        </div>
-        
-        {/* Main Heading */}
-        <h1 className="text-7xl md:text-8xl lg:text-9xl font-bold mb-6 tracking-tight leading-none text-white">
-          Discovering
-          <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 animate-gradient">
-            Sri Lanka
-          </span>
-        </h1>
-        
-        {/* Subheading */}
-        <p className="text-xl md:text-2xl text-gray-300 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
-          Join me as I explore the pearl of the Indian Ocean. From ancient temples to pristine beaches, tracking my journey through paradise.
-        </p>
       </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
-        <div className="w-6 h-10 border-2 border-emerald-400/50 rounded-full flex items-start justify-center p-2">
-          <div className="w-1.5 h-3 bg-emerald-400/50 rounded-full animate-scroll"></div>
-        </div>
-      </div>
-    </div>
-
 
       {/* Destinations Section */}
       <div className="max-w-7xl mx-auto px-6 py-20">
