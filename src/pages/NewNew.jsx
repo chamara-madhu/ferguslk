@@ -134,7 +134,7 @@ export default function NewNew() {
         "Lagoon",
         "Watersports",
       ],
-      videoUrl: "https://www.youtube.com/embed/AkFsiSCCFlo?autoplay=1",
+      videoUrl: "https://www.youtube.com/embed/AkFsiSCCFlo",
       highlights: [
         "Negombo Beach - long sandy coastline and sunsets",
         "Negombo Fish Market - lively morning seafood trading",
@@ -295,66 +295,6 @@ export default function NewNew() {
       ],
     },
     {
-      id: 4,
-      name: "Polonnaruwa",
-      location: "North Central Province, Sri Lanka",
-      mainImage:
-        "https://wherethesoulswander.com/wp-content/uploads/2019/12/things-to-do-in-Polonnaruwa-1.jpg",
-      description:
-        "Polonnaruwa, another UNESCO World Heritage Site, served as Sri Lanka’s medieval capital from the 11th to 13th centuries. This ancient city showcases a blend of Buddhist artistry, royal architecture, and advanced irrigation systems. Visitors can explore grand palaces, rock-carved Buddha statues, and sacred stupas scattered among serene lakes and forests — a window into Sri Lanka’s golden age of civilization.",
-      tags: [
-        "Cultural Heritage",
-        "History",
-        "UNESCO Site",
-        "Archaeology",
-        "Temples",
-        "Buddhism",
-      ],
-      videoUrl: "https://youtube.com/embed/RDpu0R-Xwqw",
-      highlights: [
-        "Gal Vihara – Rock-cut Buddha statues in perfect serenity",
-        "Royal Palace of King Parakramabahu – Ancient royal residence ruins",
-        "Parakrama Samudraya – Massive reservoir built for irrigation",
-        "Quadrangle (Dalada Maluwa) – Sacred area with ancient shrines",
-        "Rankoth Vehera – Large stupa symbolizing Buddhist devotion",
-        "Lankatilaka Vihara – Towering brick temple with a standing Buddha image",
-      ],
-      photos: [
-        {
-          url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn09Duvth67YqCsGaR0xibOMCgwZwn2LLiyToFMTmyYDLhSgscYz0DZRIL5j4ZdtIfBfU&usqp=CAU",
-          caption: "Gal Vihara Buddha Statues",
-        },
-        {
-          url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/22/39/33/20181225-152637-largejpg.jpg?w=1200&h=-1&s=1",
-          caption: "Rankoth Vehera Stupa",
-        },
-        {
-          url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Lankathilaka_Vhihara_-_Le_temple.JPG/1200px-Lankathilaka_Vhihara_-_Le_temple.JPG",
-          caption: "Lankatilaka Vihara",
-        },
-        {
-          url: "https://overatours.com/wp-content/uploads/2021/10/The-Sacred-Quadrangle.jpg",
-          caption: "Quadrangle (Dalada Maluwa)",
-        },
-        {
-          url: "https://www.orientalarchitecture.com/gallery/sri-lanka/polonnaruwa/parakramabahu-royal-palace/photos/parakramabahu_royal-palace03.jpg",
-          caption: "Royal Palace of King Parakramabahu I",
-        },
-        {
-          url: "https://i1.wp.com/amazinglanka.com/wp/wp-content/uploads/2013/09/parakrama_samudraya_03.jpg?ssl=1",
-          caption: "Parakrama Samudraya Reservoir",
-        },
-        {
-          url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX_nimKwwpXXsUioOO10q1eljjKOR72nbp_A&s",
-          caption: "Reclining Buddha at Gal Vihara",
-        },
-        {
-          url: "https://c8.alamy.com/comp/DP2KAT/asia-sri-lanka-polonnaruwa-the-ruins-of-the-medieval-capital-city-DP2KAT.jpg",
-          caption: "Ruins of Polonnaruwa City",
-        },
-      ],
-    },
-    {
       id: 2,
       name: "Jaffna",
       location: "Northern Province, Sri Lanka",
@@ -363,7 +303,7 @@ export default function NewNew() {
       description:
         "Jaffna, the vibrant cultural heart of northern Sri Lanka, is a region rich in Tamil heritage, history, and spirituality. Emerging from decades of isolation, Jaffna now welcomes visitors with warm hospitality, colorful temples, delicious cuisine, and colonial-era charm. From the majestic Nallur Kandaswamy Kovil to the serene islands of the Jaffna Peninsula, it’s a destination that blends culture, history, and coastal beauty.",
       tags: ["Culture", "Temples", "History", "Islands", "Cuisine", "Beaches"],
-      videoUrl: "https://www.youtube.com/embed/a9T0q-gWCLk?autoplay=1",
+      videoUrl: "https://www.youtube.com/embed/a9T0q-gWCLk",
       highlights: [
         "Nallur Kandaswamy Kovil – Iconic Hindu temple with golden gopuram",
         "Jaffna Fort – 17th-century Dutch fort overlooking the lagoon",
@@ -441,6 +381,66 @@ export default function NewNew() {
         {
           url: "https://www.srilanka.travel/ArrivebyaCruise/resources/images/banner3.jpg",
           caption: "Trincomalee Harbour",
+        },
+      ],
+    },
+        {
+      id: 4,
+      name: "Polonnaruwa",
+      location: "North Central Province, Sri Lanka",
+      mainImage:
+        "https://wherethesoulswander.com/wp-content/uploads/2019/12/things-to-do-in-Polonnaruwa-1.jpg",
+      description:
+        "Polonnaruwa, another UNESCO World Heritage Site, served as Sri Lanka’s medieval capital from the 11th to 13th centuries. This ancient city showcases a blend of Buddhist artistry, royal architecture, and advanced irrigation systems. Visitors can explore grand palaces, rock-carved Buddha statues, and sacred stupas scattered among serene lakes and forests — a window into Sri Lanka’s golden age of civilization.",
+      tags: [
+        "Cultural Heritage",
+        "History",
+        "UNESCO Site",
+        "Archaeology",
+        "Temples",
+        "Buddhism",
+      ],
+      videoUrl: "https://youtube.com/embed/RDpu0R-Xwqw",
+      highlights: [
+        "Gal Vihara – Rock-cut Buddha statues in perfect serenity",
+        "Royal Palace of King Parakramabahu – Ancient royal residence ruins",
+        "Parakrama Samudraya – Massive reservoir built for irrigation",
+        "Quadrangle (Dalada Maluwa) – Sacred area with ancient shrines",
+        "Rankoth Vehera – Large stupa symbolizing Buddhist devotion",
+        "Lankatilaka Vihara – Towering brick temple with a standing Buddha image",
+      ],
+      photos: [
+        {
+          url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn09Duvth67YqCsGaR0xibOMCgwZwn2LLiyToFMTmyYDLhSgscYz0DZRIL5j4ZdtIfBfU&usqp=CAU",
+          caption: "Gal Vihara Buddha Statues",
+        },
+        {
+          url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/22/39/33/20181225-152637-largejpg.jpg?w=1200&h=-1&s=1",
+          caption: "Rankoth Vehera Stupa",
+        },
+        {
+          url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Lankathilaka_Vhihara_-_Le_temple.JPG/1200px-Lankathilaka_Vhihara_-_Le_temple.JPG",
+          caption: "Lankatilaka Vihara",
+        },
+        {
+          url: "https://overatours.com/wp-content/uploads/2021/10/The-Sacred-Quadrangle.jpg",
+          caption: "Quadrangle (Dalada Maluwa)",
+        },
+        {
+          url: "https://www.orientalarchitecture.com/gallery/sri-lanka/polonnaruwa/parakramabahu-royal-palace/photos/parakramabahu_royal-palace03.jpg",
+          caption: "Royal Palace of King Parakramabahu I",
+        },
+        {
+          url: "https://i1.wp.com/amazinglanka.com/wp/wp-content/uploads/2013/09/parakrama_samudraya_03.jpg?ssl=1",
+          caption: "Parakrama Samudraya Reservoir",
+        },
+        {
+          url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX_nimKwwpXXsUioOO10q1eljjKOR72nbp_A&s",
+          caption: "Reclining Buddha at Gal Vihara",
+        },
+        {
+          url: "https://c8.alamy.com/comp/DP2KAT/asia-sri-lanka-polonnaruwa-the-ruins-of-the-medieval-capital-city-DP2KAT.jpg",
+          caption: "Ruins of Polonnaruwa City",
         },
       ],
     },
@@ -1221,9 +1221,9 @@ export default function NewNew() {
                 "Negombo",
                 "Kalpitiya",
                 "Anuradhapura",
-                "Polonnaruwa",
                 "Jaffna",
                 "Trincomalee",
+                "Polonnaruwa",
                 "Sigiriya",
                 "Kandy",
                 "Ella",
